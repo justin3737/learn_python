@@ -1,9 +1,11 @@
-# Python 學習筆記
+# Python 進階學習筆記
 學習 python 的資源筆記，紀錄學習 python 的過程。
+
+適合已有python程式基礎的開發者閱讀
 
 ### 學習 Django
 - Python新手使用Django架站技術實作：活用Django 2.0 Web Framework建構動態網站的16堂課
-[自主學習examle](https://github.com/justin3737/learn_python/tree/master/book_django_2_web_framewoek)
+[自主學習examle code](https://github.com/justin3737/learn_python/tree/master/book_django_2_web_framewoek)
 
 - [Django 基本教學 - 從無到有 Django-Beginners-Guide](https://github.com/twtrubiks/django-tutorial)
 
