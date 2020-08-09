@@ -49,6 +49,7 @@ pip install -r requirement.txt
 
 ```
 ---
+# Django 指令
 ### 啟動Django
 > python manage.py runserver
 
