@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>產品列表</title>
+</head>
+<body>
+<h2>以下是產品列表</h2>
+<hr>
+<table width=400 border=1 bgcolor='#ccffcc'>
+<tr><td>品名</td><td>售價</td><td>庫存量</td></tr>
+{% for p in Products %}
+    <tr>
+        <td>{{ p.name }}</td>
+        <td>{{ p.price }}</td>
+        <td>{{ p.qty }}</td>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>
