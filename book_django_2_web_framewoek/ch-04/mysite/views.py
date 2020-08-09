@@ -30,5 +30,4 @@ def about(request):
 
 def listing(request):
     Products = Product.objects.all()
-
     return render(request, 'list.html', locals())
