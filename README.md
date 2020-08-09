@@ -12,8 +12,9 @@
 
 
 ---
-# 環境與指令
+# 環境
 ### 初始化環境設定
+使用VS Code作為開發工具
 [Visual Studio Code Python 基本設定篇](https://www.youtube.com/watch?v=tS4beaq9ies)
 
 
