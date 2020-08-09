@@ -5,13 +5,18 @@
 - Python新手使用Django架站技術實作：活用Django 2.0 Web Framework建構動態網站的16堂課
 [自主學習examle](https://github.com/justin3737/learn_python/tree/master/book_django_2_web_framewoek)
 
+- [Django 基本教學 - 從無到有 Django-Beginners-Guide](https://github.com/twtrubiks/django-tutorial)
+
 ### 學習 RESTful API
 - [Django rest framework tutorial](https://github.com/twtrubiks/django-rest-framework-tutorial/)
 
 
 ---
-## 環境與指令
+# 環境與指令
 ### 初始化環境設定
+[Visual Studio Code Python 基本設定篇](https://www.youtube.com/watch?v=tS4beaq9ies)
+
+
 請先確認電腦有安裝 [Python](https://www.python.org/)
 > brew install python3
 
