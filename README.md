@@ -2,7 +2,7 @@
 
 ### 書本範例
 - Python新手使用Django架站技術實作：活用Django 2.0 Web Framework建構動態網站的16堂課
-[課程範例](#)
+[課程範例](https://github.com/justin3737/learn_python/tree/master/book_django_2_web_framewoek)
 
 ### 網站學習資源
 
