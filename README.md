@@ -1,11 +1,11 @@
-# Dython 學習紀錄
+# Python 學習筆記
 學習 python 的資源筆記，紀錄學習 python 的過程。
 
 ### 學習 Django
 - Python新手使用Django架站技術實作：活用Django 2.0 Web Framework建構動態網站的16堂課
 [課程範例](https://github.com/justin3737/learn_python/tree/master/book_django_2_web_framewoek)
 
-### 學習 RESTful
+### 學習 RESTful API
 - [Django rest framework tutorial](https://github.com/twtrubiks/django-rest-framework-tutorial/)
 
 
