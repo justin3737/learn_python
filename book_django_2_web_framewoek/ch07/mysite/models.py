@@ -34,7 +34,7 @@ class Product(models.Model):
 class PPhoto(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     description = models.CharField(max_length=20, default='產品照片')
-    url = models.URLField(default='https://imgur.com/TQTfGiA')  #儲存照片的位置
+    url = models.URLField(default='https://i.imgur.com/TQTfGiA.jpg')  #儲存照片的位置
 
     def __str__(self):
         return self.description
