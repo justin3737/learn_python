@@ -21,11 +21,11 @@ class PModel(models.Model):
 
 
 class Product(models.Model):
-    pmodel = models.ForeignKey(PModel, on_delete=models.CASCADE)
-    nickname = models.CharField(max_length=15, default='超值Xpro3')
+    pmodel = models.ForeignKey(PModel, on_delete=models.CASCADE, verbose_name='型號')
+    nickname = models.CharField(max_length=15, default='超值Xpro3', verbose_name='摘要')
     description = models.TextField(default='暫無說明')
-    year = models.PositiveIntegerField(default=2020)
-    price = models.PositiveIntegerField(default=0)
+    year = models.PositiveIntegerField(default=2020, verbose_name='出廠年份')
+    price = models.PositiveIntegerField(default=0, verbose_name='價格')
 
     def __str__(self):
         return self.nickname
