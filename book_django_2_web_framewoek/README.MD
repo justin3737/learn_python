@@ -1,7 +1,8 @@
 
 # 自主學習examle: Python新手使用Django架站技術實作：活用Django 2.0 Web Framework建構動態網站的16堂課
  - 04 深入了解Django的MVC架構
- - 06 Template深入探討
+ - 07 Models 與資料庫
+ - 08 網站表單應用
 
 ## 環境與指令
 ### 初始化環境設定

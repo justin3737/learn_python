@@ -3,8 +3,6 @@
 
 適合已有python程式基礎的開發者閱讀
 
-### 學習 Python x MySql 資料庫
-[Python 使用 MySQL資料庫的教學與安裝](https://www.maxlist.xyz/2018/09/23/python_mysql/)
 
 ### 學習 Django
 - Python新手使用Django架站技術實作：活用Django 2.0 Web Framework建構動態網站的16堂課
@@ -15,6 +13,8 @@
 ### 學習 RESTful API
 - [Django rest framework tutorial](https://github.com/twtrubiks/django-rest-framework-tutorial/)
 
+### 學習 Python x MySql 資料庫
+[Python 使用 MySQL資料庫的教學與安裝](https://www.maxlist.xyz/2018/09/23/python_mysql/)
 
 ---
 # 環境
