@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from mysite import models
+from mysite import models, forms
 
 # Create your views here.
     # years = range(1960,2021)
@@ -74,3 +74,20 @@ def posting(request):
         message='成功儲存！請記得你的編輯密碼[{}]!，訊息需經審查後才會顯示。'.format(user_pass)
 
     return render(request, 'posting.html', locals())
+
+
+def contact(request):
+    if request.method == 'POST':
+        form = forms.ContactForm(request.POST)
+        if form.is_valid():
+            message = "感謝您的來信"
+            user_name = form.cleaned_data['user_name']
+            user_city = form.cleaned_data['user_city']
+            user_school = form.cleaned_data['user_school']
+            user_email = form.cleaned_data['user_email']
+            user_message = form.cleaned_data['user_message']
+        else:
+            message = '請檢查您輸入的資訊是否正確'
+    else:
+        form = forms.ContactForm()
+    return render(request, 'contact.html', locals())
