@@ -119,3 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# use MailGun for email server
+EMAIL_BACKEND = 'django_mailgun.MailgunBackend'
+MAILGUN_ACCESS_KEY = '203ef6d0-10018590'
+MAILGUN_SERVER_NAME = 'sandbox92d8eaf6263a4938a54342e8ea224dfe.mailgun.org'
