@@ -57,7 +57,7 @@ pip install -r requirement.txt
 ---
 # Django 指令
 ### 啟動Django
-> python manage.py runserver
+> python3 manage.py runserver
 
 ### 建立Super User
 > python manage.py createsuperuser
